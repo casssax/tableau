@@ -50,7 +50,7 @@ def append_tableau_file(input_file, out_file):
             header_flag = 0
         else:
             new_line = ''
-            domain = listdata[14]
+            domain = listdata[14].lower()
             if domain in db_domain_file:
                 for field in listdata:
                     new_line = new_line + '"' + field + '"' + ',' 
