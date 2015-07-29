@@ -27,8 +27,7 @@ def pie_tableau_db_file(db_file_name):
 def append_tableau_file(input_file, out_file):
     # db_file_name will be the permanent name of file pulled from PIE database for Tableau.
     #     this name should always be the same and new files will overwrite the old file. 
-    #db_file_name = '\\\\192.168.1.179\\firmographics\\LSC-Firmagraphic-Database.csv'
-    db_file_name = '\\\\192.168.0.79\\firmographics\\LSC-Firmagraphic-Database.csv'
+    db_file_name = '\\\\192.168.1.179\\firmographics\\LSC-Firmagraphic-Database.csv'
     #db_file_name = 'LSC-Firmagraphic-Database.csv'
     # create the db_domains dictionary from PIE database file db_file_name. 
     db_domain_file, db_header = pie_tableau_db_file(db_file_name)
